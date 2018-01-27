@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <form>
+      <section>
+        <label for="first">First:</label>
+        <input type="text" id="first">
+      </section>
+      <section>
+        <label for="second">second:</label>
+        <input type="text" id="second">
+      </section>
+      <section>
+        <p id="result"></p>
+      </section>
+    </form>
+  </main>
+  <script>
+    let myWorker = new Worker('./worker.js')
+
+    let first = document.querySelector('#first'),
+        second = document.querySelector('#second'),
+        result = document.querySelector('#result')
+    
+    first.onchange = function () {
+      myWorker.postMessage([first.value, second.value]);
+      console.log('Message posted to worker');
+    }
+
+    second.onchange = function () {
+      myWorker.postMessage([first.value, second.value]);
+      console.log('Message posted to worker');
+    }
+
+    myWorker.onmessage = (e) => {
+      result.innerHTML = e.data;
+      console.log('Message received from worker');
+    }
+  </script>
+</body>
+</html>
