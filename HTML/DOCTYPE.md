@@ -53,7 +53,11 @@
 
 ```
 
-- `HTML4.01 Frameset:`允许表现性元素，废气元素以及frameset。声明：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+- `HTML4.01 Frameset:`允许表现性元素，废气元素以及frameset。声明：
+
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+```
 
 - `XHTML1.0 Strict:`不使用允许表现性、废弃元素以及frameset。文档必须是结构良好的XML文档。声明：
 ```html
@@ -66,11 +70,24 @@
 ```
 
 - `XHTML 1.0 Frameset`:允许使用表现性、废弃元素以及frameset，文档必须是结构良好的XML文档。声明：
+
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 ```
 
-- `HTML 5`: 
+- `HTML 5`: （标准模式）
+
 ```html
 <!doctype html>
 ```
+
+  问：HTML5 为什么只需要写 `<!DOCTYPE HTML>`？
+
+    答：HTML5 不基于 SGML，因此不需要对DTD进行引用，但是需要doctype来规范浏览器的行为（让浏览器按照它们应该的方式来运行；
+    而HTML4.01基于SGML,所以需要对DTD进行引用，才能告知浏览器文档所使用的文档类型。
+
+---
+
+- 怪异模式：不写doctype
+- 标准模式：HTML 5写法
+- 接近标准模式： 其他
