@@ -23,6 +23,8 @@
   - [`new` 关键字](./JS/new关键字.md)
   - [浅复制 & 深复制](./JS/shallowClone&deepClone.md)
   - [正则表达式](./JS/正则表达式.md)
+  - [XMLHttprequest](./JS/XMLHttprequest.md)
+  
   
 - ## Sort
 

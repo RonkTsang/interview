@@ -336,6 +336,8 @@
 
 ## 参考
 
+  [javaScript中浅拷贝和深拷贝的实现](https://github.com/wengjq/Blog/issues/3)
+  
   [深入剖析 JavaScript 的深复制 (好难看懂怎么办😭)](http://jerryzou.com/posts/dive-into-deep-clone-in-javascript/)
 
   [JavaScript对象深拷贝/浅拷贝遇到的坑和解决方法 (这个有环的解决)](https://segmentfault.com/a/1190000013278803)
