@@ -24,6 +24,7 @@
   - [浅复制 & 深复制](./JS/shallowClone&deepClone.md)
   - [正则表达式](./JS/正则表达式.md)
   - [XMLHttpRequest](./JS/XMLHttpRequest.md)
+  - [一道`this`丢失的题](./JS/AQuestionAboutThis.md)  
   
   
 - ## Sort
