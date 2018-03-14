@@ -60,7 +60,7 @@
   // 返回 true
   ```
 
-  - [继承这一部分](/extend.md)中 `SubClass instanceof SuperClass`
+  - [继承这一部分](./extend.md)中 `SubClass instanceof SuperClass`
 
   ![](./img/instanceof_1.jpg)
   (凑合看吧哈哈哈哈哈 😝)
