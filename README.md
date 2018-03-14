@@ -23,8 +23,11 @@
   - [`new` 关键字](./JS/new关键字.md)
   - [浅复制 & 深复制](./JS/shallowClone&deepClone.md)
   - [正则表达式](./JS/正则表达式.md)
-  - [XMLHttpRequest](./JS/XMLHttpRequest.md)
-  - [一道`this`丢失的题](./JS/AQuestionAboutThis.md)  
+  - [`XMLHttpRequest`](./JS/XMLHttpRequest.md)
+  - [一道关于 `this` 丢失的题](./JS/AQuestionAboutThis.md)  
+  - [`prototype` & `__proto__`](/JS/understand-prototype-__proto__.md)
+  - [`instanceof` 了解下](/JS/instanceof.md)
+  - [继承小结](/JS/extend.md)
   
   
 - ## Sort

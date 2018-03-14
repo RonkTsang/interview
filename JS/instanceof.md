@@ -1,5 +1,11 @@
 # `instanceof`
 
+- [`instanceof`](#instanceof)
+  - [基本用法](#%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
+  - [运算符代码](#%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BB%A3%E7%A0%81)
+  - [试着分析](#%E8%AF%95%E7%9D%80%E5%88%86%E6%9E%90)
+  - [参考](#%E5%8F%82%E8%80%83)
+---
 ## 基本用法
 
   ``` javascript
@@ -63,3 +69,9 @@
   `SubClass.__proto__` 怎样都不会是 `SuperClass.prototype`，所以判断结果是 `false`
 
   但如果是 `SubClass.prototype instanceof SuperClass` 就是 `true` 了呀 ~
+
+## 参考
+
+[👉 MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/instanceof)
+ 
+[👉 JavaScript instanceof 运算符深入剖析](https://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/index.html)
