@@ -28,6 +28,7 @@
   - [`prototype` & `__proto__`](/JS/understand-prototype-__proto__.md)
   - [`instanceof` 了解下](/JS/instanceof.md)
   - [继承小结](/JS/extend.md)
+
   
   
 - ## Sort
@@ -38,6 +39,7 @@
 
   - [浏览器渲染](/performance/浏览器渲染.md)
   - [动画性能](/performance/动画性能.md)
+  - [缓存小结](/performance/缓存.md)
 
 - ## Network
 
