@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #result {
+      width: 200px;
+      min-height: 100px;
+      border: 1px solid gray;
+    }
+
+    #showScroll {
+      position: fixed;
+      right: 50px;
+      top: 50px;
+      border: 1px solid gray;
+      width: 100px;
+      height: 50px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body style="height: 3000px">
+
+  <input type="text" id="test">
+  <p id="result"></p>
+  <div id="showScroll"></div>
+  
+</body>
+<script>
+
+  let scrollRes = document.querySelector('#showScroll')
+  
+  window.addEventListener('scroll', throttle(function (event) {
+    let pageHeight = document.documentElement.scrollHeight,
+      scrollTop = document.documentElement.scrollTop,
+      clientHeight = document.documentElement.clientHeight
+      thresold = pageHeight - scrollTop - clientHeight
+      console.log(thresold)
+      scrollRes.innerHTML = thresold
+  }, 1000))
+
+  function throttle(fn, interval = 300) {
+    var timer = null
+  
+    return function (...args) {
+      if (timer) return
+
+      timer = setTimeout(() => {
+        fn.apply(this, args);
+        clearTimeout(timer)
+        timer = null
+      }, interval);
+    };
+  }
+  
+  let result = document.querySelector('#result')
+  
+  document.querySelector('#test').addEventListener('keyup', debounce(function (e) {
+    result.innerHTML = this.value
+  }, 2000))
+  
+  function debounce(fn, delay) {
+    let timer = null
+    return function (...args) {
+      clearTimeout(timer)
+      timer = setTimeout(() => {
+        fn.apply(this, args)
+      }, delay);
+    }
+  }
+  
+</script>
+
+</html>
