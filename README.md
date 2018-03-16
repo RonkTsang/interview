@@ -30,6 +30,9 @@
   - [`prototype` & `__proto__`](/JS/understand-prototype-__proto__.md)
   - [`instanceof` 了解下](/JS/instanceof.md)
   - [继承小结](/JS/extend.md)
+  - [函数防抖和函数节流](/JS/throttle&debounce.md)
+  - [`let` & `const`](/JS/let&const.md)
+  - [`freeze` VS `seal`](/JS/freezeVSseal.md)
 
   
 - ## Sort
