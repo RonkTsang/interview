@@ -33,6 +33,7 @@
   - [函数防抖和函数节流](/JS/throttle&debounce.md)
   - [`let` & `const`](/JS/let&const.md)
   - [`freeze` VS `seal`](/JS/freezeVSseal.md)
+  - [`documentElement` VS `body`](/JS/documentElement-VS-body.md)
 
   
 - ## Sort
