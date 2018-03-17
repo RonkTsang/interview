@@ -42,9 +42,15 @@
 
 - ## Performance
 
-  - [浏览器渲染](/performance/浏览器渲染.md)
+  <!-- - [浏览器渲染](/performance/浏览器渲染.md) -->
   - [动画性能](/performance/动画性能.md)
   - [缓存小结](/performance/缓存.md)
+
+- ## 浏览器
+
+  - [进程与线程](/browser/浏览器进程和线程.md)
+  - [浏览器内核](/browser/常见浏览器内核.md)
+  - [浏览器渲染](/browser/浏览器渲染.md)
 
 - ## Network
 
