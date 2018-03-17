@@ -35,7 +35,7 @@
     
   - setTimeout & http请求
 
-    这个应该是考察 microTask 和 macroTask
+    这个应该是考察 [浏览器内核线程]()
       
   - 写一个 **防抖函数**
 
