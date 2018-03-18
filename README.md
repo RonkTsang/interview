@@ -51,6 +51,7 @@
   - [进程与线程](/browser/浏览器进程和线程.md)
   - [浏览器内核](/browser/常见浏览器内核.md)
   - [浏览器渲染](/browser/浏览器渲染.md)
+  - [事件循环机制](/browser/事件循环机制.md)
 
 - ## Network
 
