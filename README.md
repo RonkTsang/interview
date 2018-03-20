@@ -12,12 +12,14 @@
   - [HTML5离线存储](/HTML/HTML5离线存储.md)
   - [语义化](/HTML/语义化.md)
   - [WebStorage](/HTML/WebStorage.md)
+  - [Web Worker](/HTML/worker.md)
 
 - ## CSS
 
   - [BFC](./CSS/BFC.md)
   - [Margin Collapse](./CSS/MarginCollapse.md) 
   - [replaced&non-replaced](./CSS/replaced&non-replaced.md)
+  - [实现三角形](/CSS/三角形.md)
 
 - ## JS
 
@@ -34,11 +36,16 @@
   - [`let` & `const`](/JS/let&const.md)
   - [`freeze` VS `seal`](/JS/freezeVSseal.md)
   - [`documentElement` VS `body`](/JS/documentElement-VS-body.md)
+  - [实现 url 顺序执行](/JS/顺序执行.md)
 
   
 - ## Sort
 
-  - [排序](./sort/summary.md)
+  - [排序](./sort/summary.md
+  
+- ## 算法
+
+  - [走台阶](/Algorithm/走台阶问题.md)
 
 - ## Performance
 
@@ -56,7 +63,11 @@
 - ## Network
 
   - [跨域](/network/跨域.md)
+  - [http](/network/http.md)
+  - [TCP](/network/TCP.md)
   
 - ## SEO
 
   - [总结](/SEO/SEO.md)
+
+- ## [一些面试题](/other/一些面试题.md)
