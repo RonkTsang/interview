@@ -41,11 +41,12 @@
   
 - ## Sort
 
-  - [排序](./sort/summary.md
+  - [排序](./sort/summary.md)
   
 - ## 算法
 
   - [走台阶](/Algorithm/走台阶问题.md)
+  - [数组去重](/Algorithm/数组去重.md)
 
 - ## Performance
 
