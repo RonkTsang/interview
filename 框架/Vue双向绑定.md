@@ -1,5 +1,16 @@
 # Vue响应式原理
 
+- [Vue响应式原理](#vue%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86)
+  - [主要的对象](#%E4%B8%BB%E8%A6%81%E7%9A%84%E5%AF%B9%E8%B1%A1)
+    - [初始化实例中的 `initData()`](#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%AE%9E%E4%BE%8B%E4%B8%AD%E7%9A%84-initdata)
+    - [Observer](#observer)
+    - [`defineReactive` —— 劫持数据的核心](#definereactive-%E2%80%94%E2%80%94-%E5%8A%AB%E6%8C%81%E6%95%B0%E6%8D%AE%E7%9A%84%E6%A0%B8%E5%BF%83)
+    - [`Watcher `](#watcher)
+  - [实例分析](#%E5%AE%9E%E4%BE%8B%E5%88%86%E6%9E%90)
+  - [参考](#%E5%8F%82%E8%80%83)
+
+![](./img/132184689-57b310ea1804f_articlex.png)
+
 ![](./img/vue-reactive.jpg)
 
 大致过程：
@@ -16,9 +27,9 @@
   
 - **数据更新**
 
-> 当 `data` 中被 `Observer` 的某个对象值变化后，触发 `subs` 中观察它的 `watcher` 执行 `update()` 方法，最后实际上是调用watcher的回调函数cb，进而更新视图。
+> 当 `data` 中被 `Observer` 的某个对象值变化后，触发 `subs` 中观察它的 `watcher` 执行 `update()` 方法，最后实际上是调用 `watcher` 的回调函数cb，进而更新视图。
 >
-> Vue 中初始化渲染时，视图上绑定的数据就会实例化一个 Watcher，**依赖收集就是是通过属性的 getter 函数完成的**，Observer 、Watcher 、Dep 都与依赖收集相关。
+> `Vue` 中初始化渲染时，视图上绑定的数据就会实例化一个 `Watcher`，**依赖收集就是是通过属性的 getter 函数完成的**，`Observer` 、`Watcher` 、`Dep` 都与依赖收集相关。
 >
 > 其中 `Observer` 与 `Dep` 是一对一的关系， `Dep` 与 `Watcher` 是多对多的关系，`Dep` 则是 `Observer` 和 `Watcher` 之间的纽带。
 >
