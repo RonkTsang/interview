@@ -1,3 +1,6 @@
+- [CSRF（Cross-site request forgery，跨站请求伪造）](#csrf%EF%BC%88cross-site-request-forgery%EF%BC%8C%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0%EF%BC%89)
+- [XSS（Cross Site Scripting，跨站脚本攻击）](#xss%EF%BC%88cross-site-scripting%EF%BC%8C%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%EF%BC%89)
+- [摘自：](#%E6%91%98%E8%87%AA%EF%BC%9A)
 
 # CSRF（Cross-site request forgery，跨站请求伪造）
 
@@ -78,6 +81,6 @@ XSS 是实现 CSRF 的诸多途径中的一条，但绝对不是唯一的一条�
 当我们需要用户输入 HTML 的时候，需要对用户输入的内容做更加小心细致的处理。仅仅粗暴地去掉 script 标签是没有用的，任何一个合法 HTML 标签都可以添加 onclick 一类的事件属性来执行 JavaScript。更好的方法可能是，将用户的输入使用 HTML 解析库进行解析，获取其中的数据。然后根据用户原有的标签属性，重新构建 HTML 元素树。构建的过程中，所有的标签、属性都只从白名单中拿取。
 
 ---
-## 摘自：
+# 摘自：
 
 - [笔试面试知识整理](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
