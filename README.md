@@ -20,6 +20,7 @@
   - [Margin Collapse](./CSS/MarginCollapse.md) 
   - [replaced&non-replaced](./CSS/replaced&non-replaced.md)
   - [实现三角形](/CSS/三角形.md)
+  - [水平垂直居中](/CSS/居中.md)
 
 - ## JS
 
