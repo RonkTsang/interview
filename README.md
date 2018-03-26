@@ -41,12 +41,13 @@
 
 - ## 算法
 
-  - [排序](./sort/summary.md
+  - [排序](./sort/summary.md)
   - [走台阶](/Algorithm/走台阶问题.md)
   - [数组去重](/Algorithm/数组去重.md)
 
 - ## Performance
 
+  - [Web优化](/performance/summary.md)
   - [动画性能](/performance/动画性能.md)
   - [缓存小结](/performance/缓存.md)
 
