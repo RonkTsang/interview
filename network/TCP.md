@@ -179,3 +179,4 @@ UDP 是一个简单的传输层协议。和 TCP 相比，UDP 有下面几个显�
 
 - [TCP的拥塞控制](https://zhangbinalan.gitbooks.io/protocol/content/tcpde_yong_sai_kong_zhi.html)
 - [TCP的流量控制 和 拥塞控制](https://www.jianshu.com/p/bd141e76bc8b)
+- [关于 TCP/IP，必知必会的十个问题](https://juejin.im/post/598ba1d06fb9a03c4d6464ab)
