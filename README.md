@@ -38,19 +38,15 @@
   - [`documentElement` VS `body`](/JS/documentElement-VS-body.md)
   - [实现 url 顺序执行](/JS/顺序执行.md)
 
-  
-- ## Sort
 
-  - [排序](./sort/summary.md)
-  
 - ## 算法
 
+  - [排序](./sort/summary.md
   - [走台阶](/Algorithm/走台阶问题.md)
   - [数组去重](/Algorithm/数组去重.md)
 
 - ## Performance
 
-  <!-- - [浏览器渲染](/performance/浏览器渲染.md) -->
   - [动画性能](/performance/动画性能.md)
   - [缓存小结](/performance/缓存.md)
 
@@ -66,6 +62,9 @@
   - [跨域](/network/跨域.md)
   - [http](/network/http.md)
   - [TCP](/network/TCP.md)
+  - [DNS](/network/DNS.md)
+  - [WebSocket](/network/WebSocket.md)
+  - [从输入URL开始发生的事情](/network/从输入URL开始发生的事情.md)
   - [XSS & CSRF](/network/XSS-&-CSRF.md)
   
 - ## 框架
